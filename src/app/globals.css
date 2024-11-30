@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default variables for light and dark mode */
+:root {
+  --background: #edf2fb; 
+  --foreground: #003049;
+  --primary:#7371fc;
+  --secondary: #736ced;
+  --grid-line-color: #e5d9f27e;
+  --border: #b3b1bb;
+}
+
+  .dark {
+    --background: #212529;
+    --foreground: #dee2e6;
+    --primary: #ad9ff8;
+    --secondary:#9381ff;
+    --grid-line-color: #1d2d44;
+    --border: #495057;
+  }
+
+  * {
+    border-color: var(--border);
+  }
+
+
+/* Grid background */
+.grid {
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, var(--grid-line-color) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-line-color) 1px, transparent 1px);
+  background-size: 24px 24px; /* Adjust grid spacing */
+}
+
+/* Body styles */
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-roboto-slab, sans-serif);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+a {
+  color: var(--primary);
+}
+a:hover {
+  color: var(--secondary);
+}
