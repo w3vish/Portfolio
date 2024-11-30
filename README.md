@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Vishal Suryavanshi's Portfolio
 
-## Getting Started
+## About Me
+I am Vishal Suryavanshi, a full-stack web developer with expertise in the MERN stack (MongoDB, Express.js, React, Node.js) as well as SQL databases. I specialize in creating dynamic and user-friendly websites using modern tools and technologies like Tailwind CSS.
 
-First, run the development server:
+## Skills and Technologies
+- **Frontend**: React.js, Next.js, Tailwind CSS, Vanilla CSS
+- **Backend**: Node.js, Express.js
+- **Databases**: MongoDB, MySQL, PostgreSQL
+- **Tools**: Git, GitHub, Cloudflare, VS Code
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Featured Projects
+### 1. Infinite Fusion Dex
+A fan-made site for Pokemon Infinite Fusion, offering tools to create and explore over 470+ Pokemon fusions with 221,300+ combinations.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Kampita
+A free music streaming and download app with 40M+ high-quality songs. Built using Node.js, Tailwind CSS, Hono.js, and PostgreSQL.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Matlabi Dunia
+A database of 10,000+ Hindi and English shayaries (poems) with a user-friendly platform for poetry lovers to explore and share heartfelt expressions. Developed using Express.js, MongoDB, and Vanilla HTML & CSS.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact
+Feel free to reach out to me at [v3ishi@gmail.com](mailto:v3ishi@gmail.com) for any inquiries or collaborations.
