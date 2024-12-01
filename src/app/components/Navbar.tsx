@@ -37,13 +37,13 @@ const ThemeToggle = () => {
 const Navbar = () => {
 
     return (
-        <nav className="flex justify-between items-center dark:border-[#595b5e] px-4 py-3 border-b h-14">
-            <div className="flex items-center">
-                <Image width={28} height={28} src="./letter-v-square.svg" className="dark:invert size-7" alt="V svg image" title="Vishal Suryavanshi" />
-                <span className="font-bold text-xl">ishal</span>
-            </div>
-            <ThemeToggle />
-        </nav>
+        <nav className="top-0 right-0 left-0 sticky flex justify-between items-center border-[#595b5e] dark:border-[#2d2f31] bg-background/80 backdrop-blur-sm px-4 py-3 border-b h-14">
+        <div className="flex items-center">
+            <Image width={28} height={28} src="./letter-v-square.svg" className="dark:invert size-7" alt="V svg image" title="Vishal Suryavanshi" />
+            <span className="font-bold text-xl">ishal</span>
+        </div>
+        <ThemeToggle />
+    </nav>
     )
 }
 

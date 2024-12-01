@@ -62,7 +62,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${robotoSlab.variable} antialiased grid`}
+        className={`${robotoSlab.variable} antialiased grid max-w-screen-2xl mx-auto`}
       >
         {children}
       </body>
