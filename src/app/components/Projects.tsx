@@ -77,7 +77,7 @@ const Projects = () => {
                                         className="bg-transparent mb-4 rounded-lg w-full"
                                         src={project.image}
                                         alt={project.name}
-                                        height={500}
+                                        height={250}
                                         width={500}
                                     />
                                 </a>
@@ -86,7 +86,7 @@ const Projects = () => {
                                     className="bg-transparent mb-4 rounded-lg w-full"
                                     src={project.image}
                                     alt={project.name}
-                                    height={500}
+                                    height={250}
                                     width={500}
                                 />
                             )}
