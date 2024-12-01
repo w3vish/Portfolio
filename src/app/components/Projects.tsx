@@ -1,6 +1,6 @@
 "use client"
 
-import { Link } from "lucide-react";
+import { Link, Link2Off } from "lucide-react";
 import Image from "next/image";
 
 const projectList = [
@@ -22,7 +22,7 @@ const projectList = [
         name: "Kampita",
         description:
             "Kampita is a free music streaming and download app with 40M+ high-quality songs. Users can stream or download music without any cost.",
-        techStack: ["Next.js", "Tailwind CSS", "Hono.js", "PostgreSQL"],
+        techStack: ["Next.js", "Tailwind CSS", "Hono.js", "PostgreSQL", "Kysely"],
         features: [
             "40M+ songs available for free download",
             "High-quality music streaming",
@@ -43,7 +43,7 @@ const projectList = [
             "Category-based filtering",
             "Fast backend with Express.js and MongoDB",
         ],
-        url: "https://matlabidunia.com",
+        url: null,
         image: "/matlabidunia.png",
     },
 ];
@@ -59,12 +59,29 @@ const Projects = () => {
                         <div key={project.name} className="shadow-md px-2 pb-4 border rounded-lg overflow-hidden">
 
                             <h3 className="gap-1 my-2 hover:font-bold text-center hover:underline">
-                                <a className="flex justify-center items-center gap-1" target="_blank" href={project.url}>
-                                    {project.name}
-                                    <Link className="size-4" />
-                                </a>
+                                {project.url ? (
+                                    <a className="flex justify-center items-center gap-1" target="_blank" href={project.url}>
+                                        {project.name}
+                                        <Link className="size-4" />
+                                    </a>
+                                ) : (
+                                    <p className="flex justify-center items-center gap-1">
+                                        {project.name}
+                                        <Link2Off className="size-4" />
+                                    </p>
+                                )}
                             </h3>
-                            <a href={project.url} target="_blank">
+                            {project.url ? (
+                                <a href={project.url} target="_blank">
+                                    <Image
+                                        className="bg-transparent mb-4 rounded-lg w-full"
+                                        src={project.image}
+                                        alt={project.name}
+                                        height={500}
+                                        width={500}
+                                    />
+                                </a>
+                            ) : (
                                 <Image
                                     className="bg-transparent mb-4 rounded-lg w-full"
                                     src={project.image}
@@ -72,7 +89,7 @@ const Projects = () => {
                                     height={500}
                                     width={500}
                                 />
-                            </a>
+                            )}
 
                             <p className="">{project.description}</p>
                             <div className="">
