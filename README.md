@@ -20,4 +20,4 @@ A free music streaming and download app with 40M+ high-quality songs. Built usin
 A database of 10,000+ Hindi and English shayaries (poems) with a user-friendly platform for poetry lovers to explore and share heartfelt expressions. Developed using Express.js, MongoDB, and Vanilla HTML & CSS.
 
 ## Contact
-Feel free to reach out to me at [v3ishi@gmail.com](mailto:v3ishi@gmail.com) for any inquiries or collaborations.
+Feel free to reach out to me at [w3vish@gmail.com](mailto:w3vish@gmail.com) for any inquiries or collaborations.
